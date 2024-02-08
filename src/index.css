@@ -167,7 +167,7 @@ p {
   justify-content: space-between;
 }
 .sponsor-box {
-  display: flex;
+  display: flex !important;
   justify-content: space-evenly;
   width: 80%;
 }
