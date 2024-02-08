@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./index.css";
 import Navbar from "./Components/NavBar/Navbar";
 import ButtonGradiant from "./Components/Buttons/ButtonGradiant";
 import npcPlay from "./assets/NPC-IMG.png";
