@@ -137,16 +137,16 @@ const App = () => {
           </div>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation animateOnce animateIn="fadeIn" style={{ zIndex: 20 }}>
-        <div className="section" id="trust">
-          <h2>TRUSTED US</h2>
-          <div className="sponsor-box">
-            <img src={sponsor1} alt="sponsor" />
-            <img src={sponsor2} alt="sponsor" />
-            <img src={sponsor3} alt="sponsor" />
-          </div>
+      {/* <ScrollAnimation animateOnce animateIn="fadeIn" style={{ zIndex: 20 }}> */}
+      <div className="section" id="trust">
+        <h2>TRUSTED US</h2>
+        <div className="sponsor-box">
+          <img src={sponsor1} alt="sponsor" />
+          <img src={sponsor2} alt="sponsor" />
+          <img src={sponsor3} alt="sponsor" />
         </div>
-      </ScrollAnimation>
+      </div>
+      {/* </ScrollAnimation> */}
       <Footer />
     </div>
   );
