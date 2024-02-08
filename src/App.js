@@ -60,7 +60,7 @@ const App = () => {
         <h3>Game Development Startup</h3>
         <ButtonGradiant herf={"contact"} text="Get more details" />
       </header>
-      <ScrollAnimation animateOnce animateIn="fadeIn">
+      <ScrollAnimation animateOnce animateIn="fadeIn" style={{ zIndex: 20 }}>
         <div className="section" id="about">
           <h2>WE USE GAMES TO MAKE IMPACT</h2>
           <div className="content">
@@ -78,7 +78,7 @@ const App = () => {
           </div>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation animateOnce animateIn="fadeIn">
+      <ScrollAnimation animateOnce animateIn="fadeIn" style={{ zIndex: 20 }}>
         <div className="section" id="service">
           <h2>WE OFFER VARIOUS SERVICES</h2>
           <div className="services-box">
@@ -113,7 +113,7 @@ const App = () => {
           </div>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation animateOnce animateIn="fadeIn">
+      <ScrollAnimation animateOnce animateIn="fadeIn" style={{ zIndex: 20 }}>
         <div className="section">
           <h2>Kayotica</h2>
           <div className="kayotica-discription">
@@ -127,7 +127,7 @@ const App = () => {
           </div>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation animateOnce animateIn="fadeIn">
+      <ScrollAnimation animateOnce animateIn="fadeIn" style={{ zIndex: 20 }}>
         <div className="section" id="projects" style={{ height: "95vh" }}>
           <h2>Projects</h2>
           <div className="projects-box">
@@ -137,7 +137,7 @@ const App = () => {
           </div>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation animateOnce animateIn="fadeIn">
+      <ScrollAnimation animateOnce animateIn="fadeIn" style={{ zIndex: 20 }}>
         <div className="section" id="trust">
           <h2>TRUSTED US</h2>
           <div className="sponsor-box">
