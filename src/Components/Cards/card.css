@@ -1,6 +1,6 @@
 .project-card {
   width: 27%;
-  height: 62vh;
+  /* height: 62vh; */
   position: relative;
   display: flex;
   flex-direction: column;
