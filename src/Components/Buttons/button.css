@@ -1,0 +1,25 @@
+.button-gradiant {
+  padding: 1em 3em;
+  background: linear-gradient(90deg, #83529c, #15a9c7, #83529c);
+  background-size: 18em;
+  background-position-x: 121%;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 10;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.button-gradiant:hover {
+  background-position-x: 1%;
+  transition: 0.3s;
+}
+@media (max-width: 70em) {
+  .button-gradiant {
+    font-size: 10px;
+  }
+
+  .button-gradiant:hover {
+  }
+}
