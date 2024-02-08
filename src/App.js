@@ -6,13 +6,14 @@ import npcPlay from "./assets/NPC-IMG.png";
 import iconServiceMobile from "./assets/smartphone (2) 1.svg";
 import iconServicePC from "./assets/pc 1.svg";
 import iconServiceModeling from "./assets/3d-cube 1.svg";
+import iconService2DModeling from "./assets/graphic-tablet_2098254 1.svg";
 import projectIMG1 from "./assets/Rectangle 15.png";
 import projectIMG2 from "./assets/Rectangle 16.png";
 import projectIMG3 from "./assets/Rectangle 17.png";
 import ProjectCard from "./Components/Cards/ProjectCard";
-import sponsor1 from "./assets/dragon.png";
-import sponsor2 from "./assets/level1.png";
-import sponsor3 from "./assets/makerFactory.png";
+import sponsor1 from "./assets/272672677_117059944195726_7238875184865727520_n.svg";
+import sponsor2 from "./assets/326474618_1046594523398177_490547605697347288_n.svg";
+import sponsor3 from "./assets/352734072_965225178155190_5491755799496241752_n.svg";
 import Footer from "./Components/Footer/Footer";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -103,7 +104,7 @@ const App = () => {
             </div>
             <div className="service">
               <div className="icon-service">
-                <img src={iconServiceModeling} alt="iconServiceModeling" />
+                <img src={iconService2DModeling} alt="iconService2DModeling" />
               </div>
               <h5>
                 2D
