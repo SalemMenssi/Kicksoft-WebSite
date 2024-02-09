@@ -138,6 +138,7 @@
   .mail-box {
     flex-direction: column;
     height: 25vh;
+    padding-bottom: 5vh;
   }
 
   .mail-box-text {
@@ -153,6 +154,8 @@
 
   .mail-box-text p {
     width: 100%;
+    font-size: 13px;
+    margin-bottom: 1em;
   }
 
   .input-box {
@@ -162,6 +165,7 @@
   }
 
   .input-box input {
+    padding-left: 0.5em;
   }
 
   .input-box input:focus {
@@ -193,7 +197,9 @@
   .footer-middle ul {
     padding: 0;
   }
-
+  .footer-middle ul:nth-child(1) {
+    display: none;
+  }
   .footer-middle ul li {
     text-align: center;
   }
