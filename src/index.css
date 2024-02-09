@@ -156,8 +156,11 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   width: 90%;
+  height: 70vh;
   padding-inline: 10em;
-  padding-block: 10em;
+  padding-block: 0 5em;
+  display: flex;
+  align-items: end;
 }
 .kayotica-discription p {
   max-width: 44ch;
@@ -317,7 +320,9 @@ p {
     width: 2em;
   }
   .kayotica-discription {
-    background-size: cover;
+    background-size: contain;
+    height: auto;
+    padding-block: 7em 0;
   }
 
   .kayotica-discription p {
