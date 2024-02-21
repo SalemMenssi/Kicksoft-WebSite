@@ -159,7 +159,7 @@ const App = () => {
                 <div className="head">
                   <h5>Zied Ben slimen</h5>
 
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/zied-ben-slimen-001820207/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 50 50"
@@ -179,7 +179,7 @@ const App = () => {
               <div className="info">
                 <div className="head">
                   <h5>Najla Hamza</h5>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/najla-hamza/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 50 50"
@@ -199,7 +199,7 @@ const App = () => {
               <div className="info">
                 <div className="head">
                   <h5>Selem Menssi</h5>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/mouhamed-selem-menssi-827464206/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 50 50"
@@ -219,7 +219,7 @@ const App = () => {
               <div className="info">
                 <div className="head">
                   <h5>Yassine Jday</h5>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/yassine-jdey-7a0420227/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 50 50"

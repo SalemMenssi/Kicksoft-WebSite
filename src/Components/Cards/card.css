@@ -11,7 +11,7 @@
 .project-card:hover {
   transform: scale(1.1);
 }
-/* .project-card:hover::before,
+.project-card:hover::before,
 .project-card:hover::after {
   background: repeating-conic-gradient(
     from var(--a),
@@ -21,6 +21,7 @@
     #0ff
   );
   content: "";
+  inset: 0;
   position: absolute;
   top: -2px;
   left: -2px;
@@ -29,7 +30,8 @@
   z-index: -2;
   filter: blur(30px);
   animation: rotate 4s linear infinite;
-} */
+}
+
 .project-card img {
   width: 100%;
 }
