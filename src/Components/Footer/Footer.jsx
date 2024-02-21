@@ -10,7 +10,7 @@ import ButtonGradiant from "../Buttons/ButtonGradiant";
 const Footer = () => {
   return (
     <div className="footer" id="contact">
-      <div className="mail-box">
+      {/* <div className="mail-box">
         <div className="mail-box-text">
           <h5>Stay in the loop</h5>
           <p>
@@ -22,7 +22,7 @@ const Footer = () => {
           <input type="text" placeholder="Enter email address" />
           <ButtonGradiant herf="" text="Continue" />
         </div>
-      </div>
+      </div> */}
       <div className="footer-content">
         <div className="footer-left">
           <img src={logo} alt="logo" />

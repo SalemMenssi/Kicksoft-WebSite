@@ -58,11 +58,7 @@ const App = () => {
       <Navbar />
       <header id="home">
         <h1>
-          Step into the realm of
-          <br />
-          Kicksoft, where innovation
-          <br />
-          meets hard work.
+          Step into the realm of Kicksoft, where innovation meets hard work.
         </h1>
         <h3>Game Development Startup</h3>
         <ButtonGradiant herf={"contact"} text="Get more details" />
@@ -135,11 +131,9 @@ const App = () => {
         <div className="section" style={{ marginTop: "5em" }}>
           <div className="kayotica-discription">
             <p>
-              Visual Novel with AI powered Chatbots.
-              <br />
-              Captivating story, unique art syle animated characters cchallanges
-              and gameplay along the story you’ll never get the same ending as
-              anyone else !
+              Visual Novel with AI powered Chatbots. Captivating story, unique
+              art syle, animated characters, challanges and gameplay along the
+              story. you’ll never get the same ending as anyone else !
             </p>
           </div>
         </div>
@@ -148,7 +142,13 @@ const App = () => {
         <div className="section">
           <div className="head-section">
             <h2>OUR TEAM</h2>
-            <h3 style={{ marginBlock: "0.2em" }}>
+            <h3
+              style={{
+                marginBlock: "0.2em",
+                color: "#fff",
+                fontWeight: "normal",
+              }}
+            >
               Meet the creative minds behind our startup
             </h3>
           </div>
@@ -191,7 +191,7 @@ const App = () => {
                     </svg>
                   </a>
                 </div>
-                <h3>Artist</h3>
+                <h3>Art Director</h3>
               </div>
             </div>
             <div className="member">
@@ -231,7 +231,7 @@ const App = () => {
                     </svg>
                   </a>
                 </div>
-                <h3>Creative Director & Writer</h3>
+                <h3>Director & Writer</h3>
               </div>
             </div>
           </div>

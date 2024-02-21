@@ -16,7 +16,7 @@ const Navbar = () => {
       <img src={logo} alt="logo" />
       <ul>
         <li>
-          <a href="#about">About US</a>
+          <a href="#about">About us</a>
         </li>
         <li>
           <a href="#service">Services</a>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <a href="#projects">Games</a>
         </li>
         <li>
-          <a href="#trust">Trust Us</a>
+          <a href="#trust">Trusted us</a>
         </li>
       </ul>
       <ButtonGradiant text={"Contact us"} herf="contact" />
