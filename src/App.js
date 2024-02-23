@@ -242,9 +242,9 @@ const App = () => {
         <div className="section" id="trust">
           <h2>TRUSTED US</h2>
           <div className="sponsor-box">
-            <img src={sponsor1} alt="sponsor" />
-            <img src={sponsor2} alt="sponsor" />
-            <img src={sponsor3} alt="sponsor" />
+            <img src={sponsor1} alt="makerFactory" />
+            <img src={sponsor2} alt="Level1" />
+            <img src={sponsor3} alt="CCDA" />
           </div>
         </div>
       </ScrollAnimation>
