@@ -7,20 +7,19 @@ import iconServiceMobile from "./assets/smartphone (2) 1.svg";
 import iconServicePC from "./assets/pc 1.svg";
 import iconServiceModeling from "./assets/3d-cube 1.svg";
 import iconService2DModeling from "./assets/graphic-tablet_2098254 1.svg";
-import projectIMG1 from "./assets/Rectangle 15.png";
-import projectIMG2 from "./assets/Rectangle 16.png";
-import projectIMG3 from "./assets/Rectangle 17.png";
+import projectIMG1 from "./assets/Rectangle 15.webp";
+import projectIMG2 from "./assets/Rectangle-16.webp";
+import projectIMG3 from "./assets/Rectangle-17.webp";
 import ProjectCard from "./Components/Cards/ProjectCard";
 import sponsor1 from "./assets/272672677_117059944195726_7238875184865727520_n.svg";
 import sponsor2 from "./assets/326474618_1046594523398177_490547605697347288_n.svg";
 import sponsor3 from "./assets/352734072_965225178155190_5491755799496241752_n.svg";
 import Footer from "./Components/Footer/Footer";
 import ScrollAnimation from "react-animate-on-scroll";
-import Najla from "./assets/najla.png";
-import Salem from "./assets/salem.png";
-import Zied from "./assets/Zied.jpg";
-import Yassine from "./assets/Yassine.jpg";
-import linkedin from "./assets/linkdin.svg";
+import Najla from "./assets/najla.webp";
+import Salem from "./assets/salem.webp";
+import Zied from "./assets/Zied.webp";
+import Yassine from "./assets/Yassine.webp";
 
 const projectData = [
   {
@@ -159,7 +158,10 @@ const App = () => {
                 <div className="head">
                   <h5>Zied Ben slimen</h5>
 
-                  <a href="https://www.linkedin.com/in/zied-ben-slimen-001820207/">
+                  <a
+                    aria-label="member linkedin link"
+                    href="https://www.linkedin.com/in/zied-ben-slimen-001820207/"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 50 50"
@@ -179,7 +181,10 @@ const App = () => {
               <div className="info">
                 <div className="head">
                   <h5>Najla Hamza</h5>
-                  <a href="https://www.linkedin.com/in/najla-hamza/">
+                  <a
+                    aria-label="member linkedin link"
+                    href="https://www.linkedin.com/in/najla-hamza/"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 50 50"
@@ -199,7 +204,10 @@ const App = () => {
               <div className="info">
                 <div className="head">
                   <h5>Selem Menssi</h5>
-                  <a href="https://www.linkedin.com/in/mouhamed-selem-menssi-827464206/">
+                  <a
+                    aria-label="member linkedin link"
+                    href="https://www.linkedin.com/in/mouhamed-selem-menssi-827464206/"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 50 50"
@@ -219,7 +227,10 @@ const App = () => {
               <div className="info">
                 <div className="head">
                   <h5>Yassine Jday</h5>
-                  <a href="https://www.linkedin.com/in/yassine-jdey-7a0420227/">
+                  <a
+                    aria-label="member linkedin link"
+                    href="https://www.linkedin.com/in/yassine-jdey-7a0420227/"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 50 50"
