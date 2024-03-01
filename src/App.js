@@ -252,7 +252,7 @@ const App = () => {
       <ScrollAnimation animateOnce animateIn="fadeIn" style={{ zIndex: 20 }}>
         <div className="section" id="trust">
           <h2>TRUSTED US</h2>
-          <div className="sponsor-box">
+          <div className="sponsorbox">
             <img src={sponsor1} alt="makerFactory" />
             <img src={sponsor2} alt="Level1" />
             <img src={sponsor3} alt="CCDA" />

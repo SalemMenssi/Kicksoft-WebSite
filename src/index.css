@@ -191,17 +191,17 @@ p {
   justify-content: space-around;
   height: 78%;
 }
-.sponsor-box {
+.sponsorbox {
   display: flex !important;
   justify-content: space-evenly;
   width: 80%;
   height: 90%;
 }
-.sponsor-box img {
+.sponsorbox img {
   width: 12.5em;
   transition: 2s;
 }
-.sponsor-box img:hover {
+.sponsorbox img:hover {
   transform: rotate(360deg) scale(1.2);
 }
 .head-section {
@@ -366,12 +366,12 @@ p {
     align-items: center;
     padding-block: 5em;
   }
-  .sponsor-box {
+  .sponsorbox {
     width: 100%;
     padding-block: 3em;
   }
 
-  .sponsor-box img {
+  .sponsorbox img {
     width: 5.5em;
   }
   .head-section {
